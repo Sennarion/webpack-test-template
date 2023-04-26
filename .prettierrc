@@ -1,0 +1,13 @@
+{
+	"trailingComma": "all",
+	"tabWidth": 2,
+	"printWidth": 110,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": true,
+	"endOfLine": "auto",
+	"bracketSpacing": true,
+	"pugWrapAttributesThreshold": 2,
+	"pugBracketSameLine": false,
+	"pugClassNotation": "literal"
+}
