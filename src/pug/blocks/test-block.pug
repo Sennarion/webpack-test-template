@@ -1,0 +1,13 @@
+- array = ['One', 'Two', 'Three']
+
+.wrapper
+    ul.list
+        each num in array 
+            li= `${num} score`
+                span.test_class
+                    | Test
+
+
+footer.footer 
+    .footer_wrapper 
+        a.footer_link(href='/' target="_blank") Test Link
