@@ -1,3 +1,28 @@
 .content {
 	width: 100%;
+	padding: 4rem 7rem;
+}
+
+.title {
+	font-size: 2.4rem;
+	font-weight: 500;
+	margin-bottom: 5rem;
+}
+
+.customers {
+	background-color: $white;
+	border-radius: 3rem;
+	box-shadow: $primaryShadow;
+	padding: 3rem 3.8rem 4rem;
+}
+
+.section__title {
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-bottom: 0.6rem;
+}
+
+.section__subtitle {
+	margin-bottom: 2rem;
+	color: $secondary;
 }
