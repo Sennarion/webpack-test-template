@@ -1,0 +1,19 @@
+.user {
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+}
+
+.user__img-wrapper {
+	width: 4.2rem;
+	overflow: hidden;
+}
+
+.user__name {
+	font-weight: 500;
+}
+
+.user__position {
+	font-size: 1.2rem;
+	color: $userDescColor;
+}

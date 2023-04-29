@@ -1,0 +1,21 @@
+- 
+    var navItems = [
+        { title: 'Dashboard', path: '/', icon: 'icon-key' },
+        { title: 'Product', path: '/', icon: 'icon-square' },
+        { title: 'Customers', path: '/', icon: 'icon-user' },
+        { title: 'Income', path: '/', icon: 'icon-wallet' },
+        { title: 'Promote', path: '/', icon: 'icon-discount' },
+        { title: 'Help', path: '/', icon: 'icon-question' }
+    ]
+
+nav.nav 
+    ul.nav__list 
+        each navItem, index in navItems 
+            li.nav__item 
+                a.nav__link(href= navItem.path class= index == 2 ? 'active' : '')
+                    .nav__link-content
+                        svg(width=24 height=24)
+                            use(href=`../../images/icons/sprite-icons/icons.svg#${navItem.icon}`)
+                        | #{navItem.title}
+                    svg(width=16 height=16)
+                        use(href='../../images/icons/other-icons/arrow-icon.svg')

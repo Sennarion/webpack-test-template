@@ -28,7 +28,7 @@ $paginationButtonColor: #f5f5f5;
 
 $color_text_base: $black;
 $color_link_base: #4aa3df;
-$body_bg: $white;
+$body_bg: $bgColor;
 //---------------------------------------------colors###
 
 //---------------------------------------------z-index
@@ -69,3 +69,6 @@ $input_placeholder_color: rgba($black, 0.4);
 $input_text_color: $black;
 $input_radius: $gl_radius;
 //---------------------------------------------forms###
+
+//---------------------------------------------shadows
+$primaryShadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
