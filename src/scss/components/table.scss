@@ -1,8 +1,8 @@
 .table {
 	width: 100%;
-	border-collapse: collapse;
-	color: $primaryTextColor;
 	font-weight: 500;
+	color: $primaryTextColor;
+	border-collapse: collapse;
 }
 
 .table__head {
@@ -40,14 +40,14 @@
 	justify-content: center;
 	min-width: 8rem;
 	padding: 0.4rem 1.2rem;
-	border: 1px solid $inactiveStatusBorderColor;
-	background-color: $inactiveStatusColor;
 	color: $inactiveStatusBorderColor;
 	border-radius: 0.4rem;
+	border: 1px solid $inactiveStatusBorderColor;
+	background-color: $inactiveStatusColor;
 
 	&.active {
+		color: $activeStatusBorderColor;
 		border: 1px solid $activeStatusBorderColor;
 		background-color: $activeStatusColor;
-		color: $activeStatusBorderColor;
 	}
 }

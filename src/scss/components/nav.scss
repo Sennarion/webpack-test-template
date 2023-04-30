@@ -9,11 +9,10 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
-	border-radius: 0.8rem;
-
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: $navTextColor;
+	border-radius: 0.8rem;
 
 	&.active {
 		color: $white;
