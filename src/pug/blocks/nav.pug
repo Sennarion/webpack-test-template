@@ -13,11 +13,11 @@ nav.nav
         each navItem, index in navItems 
             li.nav__item 
                 a.nav__link(href= navItem.path class= index == 2 ? 'active' : '')
-                    .nav__link-content
-                        svg.nav__link-icon(width=24 height=24)
+                    .nav__content
+                        svg.nav__icon(width='2.4rem' height='2.4rem')
                             use(href=`/images/sprite/sprite.svg#icons_${navItem.icon}`)
                         | #{navItem.title}
-                    svg.nav__link-icon(width=16 height=16)
+                    svg.nav__icon(width='1.6rem' height='1.6rem')
                         use(href="/images/sprite/sprite.svg#icons_icon-chevron")
 
 
